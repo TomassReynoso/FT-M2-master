@@ -99,7 +99,6 @@ function buildToDos(toDos) {
   const shellsArray = toDos.map(function (todo, i) {
     return buildToDo(todo, i);
   });
-
   return shellsArray;
 
 }
