@@ -1,1 +1,74 @@
 // Código de Nav acá
+
+.titulo{
+    font-size: 3.2rem;
+    text-align: center;
+    padding: 20px;                   //primer valor (arriba y abajo), segundo valor(izquierda y derecha),
+                                     // si pones 4 valores(cada lado por separado)
+}
+
+.navbar{
+    border-color: @nav-border;
+    display: flex;                  // une cada una de las palabras 
+    justify-content: center;
+    // text-decoration: none;       //para sacar la barrita del link
+    background-color: @nav-bg; 
+    gap: 20px;
+    
+    .letra {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+        // & + .letra {               //aplicar un margen a la izquierda solo si el elemento tiene otro elemento igual a la derecha
+        //     margin-left: 20px;
+        // }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// nav {
+//     background:rgb(237, 237, 237);
+//     padding-bottom: 10px;
+//     margin-top: 20px;
+//     h1 {
+//         padding-top: 20px;
+//         padding-bottom: 20px;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         font-size: 40px;
+//         // border: 5px solid coral;
+//     }
+
+//     ul {
+//         display: flex;
+//         justify-content: space-between;
+//         margin-left: 400px;
+//         margin-right: 400px;
+
+//         a {
+//             font-size: 15px;
+//             text-decoration: none;        //para sacar la barrita del link
+//             color: @header-font-color;
+//         }
+//     }
+// }
