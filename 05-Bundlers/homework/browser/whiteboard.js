@@ -110,7 +110,6 @@
     if (shouldBroadcast) {
       whiteboard.emit('draw', start, end, strokeColor);
     }
-
   };
 
   module.exports = whiteboard;
