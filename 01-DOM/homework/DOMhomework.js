@@ -127,7 +127,6 @@ function displayToDos() {
     toDoContainer.appendChild(todos);
   });
 
-
 }
 
 // La función 'addToDo' agregará un nuevo ToDo al array 'toDoItems'
